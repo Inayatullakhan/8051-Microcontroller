@@ -1,0 +1,6 @@
+//SHIFT THE INPUT GIVEN IN PORT 1 TO RIGHT AND SHOW THE RESULT IN PORT 0.
+#include<reg51.h>
+void main()
+{
+P0=P1>>1;
+}

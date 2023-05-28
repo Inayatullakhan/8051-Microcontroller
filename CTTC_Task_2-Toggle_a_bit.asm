@@ -1,0 +1,7 @@
+;TOGGLE P3.5
+ORG 00H
+L: SETB P3.5         ;SET P3.5 EQUALS 1
+CLR P3.5             ;SET P3.5 EQUALS 0
+SJMP L               ;SHORT JUMP TO L
+NOP
+END
